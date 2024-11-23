@@ -1,0 +1,204 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #eef2f6;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 1px 5px 5px #777;
+}
+
+ul.asidebar li a {
+    color: black;
+    border-radius: 5px;
+}
+
+ul.asidebar a:hover li {
+    background-color: #1e6091;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ul.asidebar a:hover {
+    background-color: #1e6091;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+.sidebar ul a.active,
+.sidebar ul a.active li {
+    background-color: #1e6091;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sidebar ul a:hover button {
+    color: white
+}
+
+.header {
+    box-shadow: 1px 1px 5px #777;
+    background-color: #ffffffe4;
+    padding: 13px;
+    background-color: #f1f3f5;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.header .search-bar input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 50px !important;
+    border: 1px solid #ced4da;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.test {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+}
+
+.sub-content {
+    padding: 22px;
+}
+
+.welcome-section {
+    max-width: auto;
+    margin-bottom: 50px;
+}
+
+.quickSection {
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+button.create {
+    border: none;
+    font-size: 18px;
+    background-color: #1e6091;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: transform .5s;
+}
+
+button.create:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 9px #1e6091;
+}
+
+.createPara {
+    color: #777;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    overflow-y: auto;
+    z-index: 99999;
+}
+
+.back {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 30px 30px 50px 30px;
+}
+
+/* student table css start here  */
+.input-icons {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.input-icons i {
+    position: absolute;
+    right: 0;
+}
+
+.icon {
+    padding: 15px;
+    min-width: 40px;
+}
+
+.input-field {
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #d0d8d8;
+}
+
+/* university css start here  */
+a.viewCourse {
+    transition: transform, .5s;
+
+}
+
+a.viewCourse:hover {
+    font-size: 17px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #1e6091;
+}
